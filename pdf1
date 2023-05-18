@@ -1,0 +1,32 @@
+1. In web development, client-side and server-side refer to different aspects of the application's functionality and where it is executed.
+Client-side: Client-side refers to the execution of code on the user's device, typically in a web browser. Technologies such as HTML, CSS, and JavaScript are commonly used for client-side development. When a user interacts with a web page, the client-side code handles the presentation and user interface components, such as rendering HTML, styling with CSS, and implementing interactivity with JavaScript. The client-side code is downloaded from the server and executed on the user's device.
+
+Server-side: Server-side refers to the execution of code on the server, which is a remote computer that hosts the web application. Server-side technologies such as PHP, Python, Java, or Node.js are used to handle requests from clients, process data, interact with databases, and generate dynamic content. The server-side code is responsible for handling business logic, managing data, and generating HTML or other responses that are sent back to the client for display.
+
+The main difference between client-side and server-side is that client-side code runs on the user's device, providing a more responsive and interactive user experience, while server-side code runs on the server and is responsible for processing requests and generating dynamic content.
+
+2. HTTP (Hypertext Transfer Protocol) is the protocol used for communication between a client (e.g., web browser) and a server. An HTTP request is a message sent by the client to request a specific action from the server.
+There are several types of HTTP requests:
+
+GET: Retrieves data or a resource from the server. It is used to request and receive information.
+POST: Sends data to the server for further processing. It is commonly used to submit data to be stored or processed on the server.
+PUT: Updates an existing resource on the server.
+DELETE: Deletes a specified resource on the server.
+PATCH: Partially updates a resource on the server.
+HEAD: Similar to GET, but only retrieves the headers of the response, not the actual content.
+OPTIONS: Retrieves the supported HTTP methods and other capabilities of the server.
+3. JSON (JavaScript Object Notation) is a lightweight data interchange format. It is commonly used in web development to transmit and store data in a structured format. JSON is human-readable and easy for machines to parse and generate.
+JSON is often used for the following purposes in web development:
+
+Data interchange: JSON is used to exchange data between a client and server in a structured format. It is commonly used in web APIs to send and receive data.
+
+Configuration files: JSON is used to store configuration settings or data that can be easily read and parsed by applications.
+
+Storage format: JSON is used as a data storage format, allowing data to be serialized and stored in files or databases.
+
+4. In web development, a middleware is software that sits between the client and the server and adds functionality to the request/response handling process. It acts as a bridge between the client and server components, intercepting and modifying requests and responses.
+Middleware can be used for various purposes, such as authentication, logging, error handling, and request processing. It allows developers to modularize and reuse common functionality across different parts of an application.
+
+For example, in a Node.js application, the Express.js framework provides middleware functionality. One common middleware is the body-parser middleware, which parses the incoming request body and makes it accessible in the req.body object. This middleware can be added to an Express application to handle parsing of JSON or URL-encoded data sent in the request.
+
+5. In web development, a controller is a component or a module that handles the incoming requests and controls the application's flow and behavior. It is a part of the Model-
